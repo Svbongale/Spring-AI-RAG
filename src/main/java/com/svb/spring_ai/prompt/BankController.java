@@ -14,7 +14,7 @@ public class BankController {
 
     @GetMapping("/chat-bank")
     public String chat(@RequestParam String message) {
-        String systemIstruction = """
+        String systemInstruction = """
                 You are a Bank Customer Care executive
                 You can only discuss 
                 - Bank related queries
@@ -29,7 +29,7 @@ public class BankController {
                 .build()
                 .prompt()
                 .user(message)
-                .system(systemIstruction)
+                .system(systemInstruction)
                 .call()
                 .content();
     }

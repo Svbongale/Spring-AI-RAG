@@ -51,7 +51,7 @@ public class PlannerController {
                 - Adapt to the traveler’s style (e.g., foodie, adventure, luxury, budget-conscious).
                 
                 
-                Give this entire response in no longer than 5 lines
+                Give this entire response in no longer than 5 lines, nothing more
                 """;
 
 
